@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PayPal Donations Example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Montserrat", sans-serif;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
+      .bgimg {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./cat1.jpg");
+        min-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width: 40%;">
+      <div class="bgimg"></div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left: 40%;">
+      <!-- Header -->
+      <header
+        class="w3-container w3-center"
+        style="padding: 128px 16px;"
+        id="home"
+      >
+        <h1 class="w3-jumbo">Kitty's House</h1>
+        <p>Cat rescue and foster home.</p>
+        <img
+          src="./cat1.jpg"
+          class="w3-image w3-hide-large w3-hide-small w3-round"
+          style="display: block; width: 60%; margin: auto;"
+        />
+        <img
+          src="./cat1.jpg"
+          class="w3-image w3-hide-large w3-hide-medium w3-round"
+          width="1000"
+          height="1333"
+        />
+        <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+          <i class="fa fa-download"></i> Donate to Kitty's House
+        </button>
+      </header>
+
+      <!-- Portfolio Section -->
+      <div class="w3-padding-32 w3-content" id="portfolio">
+        <h2 class="w3-text-grey">Our Residents</h2>
+        <hr class="w3-opacity" />
+
+        <!-- Grid for photos -->
+        <div class="w3-row-padding" style="margin: 0 -16px;">
+          <div class="w3-half">
+            <img src="./cat1.jpg" style="width: 100%;" />
+          </div>
+
+          <div class="w3-half">
+            <img src="./cat2.jpg" style="width: 100%;" />
+            <img src="cat3.jpg" style="width: 100%;" />
+          </div>
+          <!-- End photo grid -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer
+        class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge"
+        style="margin: -24px;"
+      >
+        <p class="w3-medium">
+          Powered by
+          <a
+            href="https://www.w3schools.com/w3css/default.asp"
+            target="_blank"
+            class="w3-hover-text-green"
+            >w3.css</a
+          >
+        </p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
+    </div>
+  </body>
+</html>
