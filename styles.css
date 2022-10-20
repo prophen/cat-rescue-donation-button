@@ -13,14 +13,12 @@ h1 {
 p {
   font-size: 1.2rem;
 }
-
 main > a,
 form {
   display: grid;
   justify-content: center;
   text-decoration: none;
 }
-
 button > span {
   display: flex;
   flex-wrap: nowrap;
@@ -30,7 +28,6 @@ button > span {
 form {
   padding: 10px;
 }
-
 .icon {
   width: 25px;
   height: 25px;
