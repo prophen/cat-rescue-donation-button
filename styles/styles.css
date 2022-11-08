@@ -37,6 +37,9 @@ form {
   justify-content: center;
   text-decoration: none;
 }
+button {
+  margin: 20px;
+}
 button > span {
   display: flex;
   flex-wrap: nowrap;
